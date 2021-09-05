@@ -20,8 +20,9 @@ var unboxing = new isoBmff.Parser(function (err, data) {
 
 	//console.log(data.root.moof.traf );
 
-	// console.dir(JSON.stringify(data));
-	console.log(JSON.stringify(data));
+	// pretty print the output...
+	// console.dir(JSON.stringify(data, null, 4));
+	console.log(JSON.stringify(data, null, 4));
 });
 
 chunkStream
