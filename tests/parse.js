@@ -16,12 +16,7 @@ var chunkStream = fs.createReadStream(chunkFile, {
 });
 
 var unboxing = new isoBmff.Parser(function (err, data) {
-
-
-	//console.log(data.root.moof.traf );
-
-	// pretty print the output...
-	// console.dir(JSON.stringify(data, null, 4));
+	// pretty print the output at 4 spaces (null, 4)
 	console.log(JSON.stringify(data, null, 4));
 });
 
