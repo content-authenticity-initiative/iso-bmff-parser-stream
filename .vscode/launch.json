@@ -18,6 +18,20 @@
 				"> ",
 				"/users/lrosenth/OUTPUT/out.json"
 			]
+		},
+		{
+			"type": "pwa-node",
+			"request": "launch",
+			"name": "Run parseFile on media/video.m4s",
+			"skipFiles": [
+				"<node_internals>/**"
+			],
+			"outputCapture": "std",
+            "cwd": "${workspaceFolder}",
+			"program": "${workspaceFolder}/parseFile.js",
+			"args": [
+				"./tests/media/video.m4s"
+			]
 		}
 	]
 }
