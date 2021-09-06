@@ -49,6 +49,19 @@
 		{
 			"type": "node",
 			"request": "launch",
+			"name": "Parse Adobe manifest",
+			"skipFiles": [
+				"<node_internals>/**"
+			],
+			"outputCapture": "std",
+			"program": "${workspaceFolder}/parseFile.js",
+			"args": [
+				"/Users/lrosenth/INPUT/images/pngpalm-CAI.jumbf"
+			]
+		},
+		{
+			"type": "node",
+			"request": "launch",
 			"name": "Parse sample MP4",
 			"skipFiles": [
 				"<node_internals>/**"

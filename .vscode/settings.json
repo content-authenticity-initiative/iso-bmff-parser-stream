@@ -4,6 +4,7 @@
 		"intobuffer",
 		"isobmff",
 		"jumb",
-		"jumd"
+		"jumd",
+		"unflat"
 	]
 }
