@@ -6,6 +6,7 @@
   "dependencies": {
     "bitparser": "^0.1.1",
     "bitwise": "^2.1.0",
+    "cbor": "^8.0.0",
     "intobuffer": "^0.1.2",
     "lodash": "^4.17.21"
   },
